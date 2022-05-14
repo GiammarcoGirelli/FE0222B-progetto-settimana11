@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{product.titolo}}</h5>
+    <p class="card-text">{{product.body}}</p>
+    <p class="card-price">{{product.price | currency:'EUR'}}</p>
+    <a class="btn btn-primary" (click)="aggiungiCarrello()">Aggiungi al Carrello</a>
+  </div>
+</div>

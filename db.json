@@ -1,0 +1,58 @@
+{
+  "prodotti" : [
+    {
+      "id": "1",
+      "titolo": "Aviator Classic",
+      "body": "Occhiale da sole unisex sempre al passo coi tempi",
+      "prezzo": 120
+    },
+    {
+      "id": "2",
+      "titolo": "Original Wayfarer Classic",
+      "body": "Occhiale da sole unisex per essere un blues brother",
+      "prezzo": 100
+    },
+    {
+      "id": "3",
+      "titolo": "Exagonal Flat Lenses",
+      "body": "Occhiale da sole unisex per chi ama la geometria",
+      "prezzo": 160
+    },
+    {
+      "id": "4",
+      "titolo": "Round Metal",
+      "body": "Occhiale da sole unisex per chi ama le forme sinuose",
+      "prezzo": 115
+    },
+    {
+      "id": "5",
+      "titolo": "New Caravan",
+      "body": "Occhiale da sole unisex per essere meglio di James Dean",
+      "prezzo": 130
+    },
+    {
+      "id": "6",
+      "titolo": "Clubmaster Classic",
+      "body": "Occhiale da sole unisex per chi preferisce lo stile puro",
+      "prezzo": 145
+    },
+    {
+      "id": "7",
+      "titolo": "Justin Classic",
+      "body": "Occhiale da sole unisex con linee taglienti",
+      "prezzo": 135
+    },
+    {
+      "id": "9",
+      "titolo": "David",
+      "body": "Occhiale da sole unisex adatto ad ogni occasione",
+      "prezzo": 125
+    }
+  ],
+  "cart": [
+    {
+
+    }
+  ]
+}
+
