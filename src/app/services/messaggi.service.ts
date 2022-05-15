@@ -11,7 +11,7 @@ export class MessaggiService {
 
   constructor() { }
 
-  inviaMessaggio(product:any){
+  inviaMessaggio(product: Prodotto){
     this.subject.next(product)
     console.log(product)
   }

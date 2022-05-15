@@ -1,5 +1,6 @@
 <div>
-  <h6 class="my-0"></h6>
-  <small class="text-muted"></small>
+  <h6 class="my-0">{{carrello.titolo}}</h6>
+  <span>{{carrello.body}}</span>:
+  <strong>{{carrello.quantity * carrello.price | currency: 'EUR'}}</strong>
 </div>
 <span class="text-muted"></span>

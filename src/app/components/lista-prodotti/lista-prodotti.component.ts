@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Prodotto } from 'src/app/models/prodotto';
 import { ProdottiService } from 'src/app/services/prodotti.service'
 
+
 @Component({
   selector: 'app-lista-prodotti',
   templateUrl: './lista-prodotti.component.html',
@@ -19,6 +20,7 @@ export class ListaProdottiComponent implements OnInit {
       this.prodottiGenerati = prodottiArray;
     })
   }
+
 
 
 }

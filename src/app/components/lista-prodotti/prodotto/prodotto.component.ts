@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Prodotto } from 'src/app/models/prodotto';
-import { MessaggiService } from 'src/app/services/messaggi.service';
+import { ProdottiService } from 'src/app/services/prodotti.service';
+
+
 
 @Component({
   selector: 'app-prodotto',
@@ -13,14 +15,13 @@ export class ProdottoComponent implements OnInit {
 
   @Input() product : Prodotto = new Prodotto();
 
-  constructor(private msg: MessaggiService) { }
+  constructor(private Service : ProdottiService) { }
 
   ngOnInit(): void {
 
+
   }
 
-  aggiungiCarrello(){
-    this.msg.inviaMessaggio(this.product)
-  }
 
 }
+
