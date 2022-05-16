@@ -13,12 +13,14 @@ export class ListaProdottiComponent implements OnInit {
   prodottiGenerati: Prodotto[] = []
 
 
-  constructor(private prodottiService: ProdottiService) { }
+  constructor(private prodottiService: ProdottiService,) { }
 
   ngOnInit(): void {
     this.prodottiService.prendiArticolo().subscribe((prodottiArray)=>{
       this.prodottiGenerati = prodottiArray;
-    })
+   })
+
+
   }
 
 

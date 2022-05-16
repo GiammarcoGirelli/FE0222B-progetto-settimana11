@@ -24,5 +24,8 @@ export class ProdottiService {
     return this.http.get<Prodotto[]>(apiUrl)
   }
 
+  aggiungiCarrello() : Observable<Prodotto[]> {
+    return this.cartItems
+  }
 
 }

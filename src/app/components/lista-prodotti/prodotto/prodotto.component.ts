@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Prodotto } from 'src/app/models/prodotto';
 import { ProdottiService } from 'src/app/services/prodotti.service';
+import { ListaProdottiComponent } from '../lista-prodotti.component';
 
 
 
@@ -21,6 +22,8 @@ export class ProdottoComponent implements OnInit {
 
 
   }
+
+
 
 
 }
